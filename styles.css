@@ -1,0 +1,119 @@
+body {
+    background-color: #111827;
+    color: #B45309;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    box-sizing: border-box;
+    background-color: #4C1D95;
+    border: 1px solid #111827;
+    border-radius: 25px;
+    height: 540px;
+    width: 540px;
+}
+
+.general-info {
+    width: 450px;
+    height: 180px;
+    margin: 90px auto 0px auto;
+    text-shadow: 0px 0px 1px #111827;
+}
+
+.emphatic-words {
+    color: #FDE68A;
+}
+
+.whitty-line {
+    margin-top: 33.75px;
+    color: #34D399;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.slide-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    appearance: none;
+    width: 157.5px;
+    height: 11.25px;
+    border-radius: 5px;
+    background-color: #B45309;
+    margin-right: 11.25px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    width: 2.5px;
+    height: 20px;
+    background: #FDE68A;
+    cursor: pointer;
+}
+  
+  .slider::-moz-range-thumb {
+    border-radius: 5px;
+    width: 2.5px;
+    height: 20px;
+    background: #FDE68A;
+    cursor: pointer;
+}
+
+#length-passwords {
+    color: #FDE68A;
+    font-size: 22px;
+}
+
+.generate-passwords:hover {
+    font-size: 85%;
+}
+
+.generate-passwords {
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #FDE68A;
+    background-color: #B45309;
+}
+
+.suggestions {
+    border-top: 3px solid;
+    width: 450px;
+    height: 180px;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #B45309;
+    text-shadow: 0px 0px .1px #111827;
+}
+
+.suggested-passwords {
+    width: 180px;
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #34D399;
+    margin-top: 22.5px;
+    padding: 5px 2px 6px 2px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    white-space: nowrap;
+    overflow-x: auto;
+}

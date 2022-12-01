@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="hero" onload="SliderValue()">
+            <div class="general-info">
+                <h2>Generate your new <span class="emphatic-words">personal,</span> <br><span class="emphatic-words">private,</span> and completly <span class="emphatic-words">random</span> password</h2>
+                <p class="whitty-line">Never use your 6 year 9 month 4 day and 20 hour old password again.</p>
+                <div class="input-section">
+                    <div class="slide-container">
+                        <input type="range" min="4" max="28" value="4" class="slider" id="your-range">
+                        <p id="length-passwords"></p>
+                    </div>
+                    <button class="generate-passwords" onclick="createPasswords()">Generate New Passwords</button>
+                </div>
+            </div>
+            <div class="suggestions">
+                <p class="suggested-passwords" id="suggested-password-1"></p>
+                <p class="suggested-passwords" id="suggested-password-2"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
