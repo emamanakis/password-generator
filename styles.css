@@ -13,6 +13,7 @@ body {
     border-radius: 25px;
     height: 540px;
     width: 540px;
+    margin: auto;
 }
 
 .general-info {
